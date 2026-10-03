@@ -1,0 +1,84 @@
+{
+  "id": "/index.html",
+  "name": "L Arcade",
+  "short_name": "L Arcade",
+  "description": "Carrom, Ludo, Naag Seedhi, Billard, Schach, Arcade-Klassiker & Ren 3D — online mit Freunden oder gegen Lak. Von Lakherance.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "lang": "de",
+  "dir": "ltr",
+  "categories": [
+    "games"
+  ],
+  "background_color": "#020711",
+  "theme_color": "#020711",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Carrom Deluxe spielen",
+      "short_name": "Carrom",
+      "description": "Direkt zu Carrom Deluxe",
+      "url": "./index.html?shortcut=carrom",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Ludo spielen",
+      "short_name": "Ludo",
+      "description": "Direkt zu Ludo",
+      "url": "./index.html?shortcut=ludo",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Naag Seedhi spielen",
+      "short_name": "Naag Seedhi",
+      "description": "Direkt zu Naag Seedhi",
+      "url": "./index.html?shortcut=naag",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "display_override": [
+    "standalone"
+  ]
+}
