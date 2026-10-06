@@ -1,6 +1,0 @@
-name = "icy-haze-acd7"
-compatibility_date = "2024-09-23"
-
-[assets]
-directory = "."
-not_found_handling = "single-page-application"
